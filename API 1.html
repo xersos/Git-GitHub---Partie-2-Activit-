@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Menu HTML déroulant</title>
+        <title>Fil rouge en javascript</title>
         <meta charset="utf-8">
+        <html lang="fr">
         <link rel="stylesheet" href="menu.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+   
     </head>
         <body>
             
@@ -26,22 +29,22 @@
                 </ul>
             </nav>
             <div class="container main-section">
-  <div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-12">
+  <div class="row" id="pokemon">
+      <!--<div class="col-md-4 col-sm-4 col-xs-12">
       <div class="row product-part">
         <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/3/38/Debugant-HGSS.png">
+          <img class="imgbox" src="" >
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Debugant</h1>
+          <h1></h1>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:236</p>
+          <h2></h2>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
           <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:1</p>
+              <p></p>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
               <a href="API%202.html" class="btn btn-success">Spécialisation</a>
@@ -50,338 +53,16 @@
         </div>
       </div>
     </div>
-      <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/e/e7/Kicklee-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Kicklee</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:106</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:1</p>
+  </div>-->
+  
+
+                </div>
+
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12 product">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img src="http://www.pokepedia.fr/images/c/c7/Draïeul-SL.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Draieul</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:780
-          </p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type : 2 </p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/6/68/Colimucus-XY.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>colimucus</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:705</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:2</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/f/f5/Boustiflor-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Boustiflor</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:70</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:3</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/3/31/Otaria-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Otaria</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:86</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:4</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/a/a4/Insécateur-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Insécateur</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:123</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:5</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/0/0f/Aéromite-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Aéromite</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:49</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:5</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/1/11/Minidraco-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Minidraco</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:147</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:2</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/9/90/Hyporoi-HGSS.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Hyporoi</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:230</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:2</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/7/75/Machoc-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Machoc</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:66</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:1</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/e/ef/Bulbizarre-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Bulbizarre</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:1</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:3</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/9/96/Leveinard-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Leveinard</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:113</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:7</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/3/39/Mystherbe-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Mystherbe</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:43</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:3</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-4 col-xs-12">
-      <div class="row product-part">
-        <div class="col-md-12 col-sm-12 colxs-12 img-section">
-          <img class="imgbox" src="http://www.pokepedia.fr/images/e/eb/Kokiyas-RFVF.png">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-title">
-          <h1>Kokiyas</h1>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-description">
-          <p>Numéro:90</p>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 product-cart">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-6">
-              <p>Type:4</p>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-6 text-right product-add-cart">
-              <a href="API%202.html" class="btn btn-success">Spécialisation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
- <footer>
-                <p>Corentin Jacob</p>
+			<footer>
+
             </footer>
+    <script  src="main.js"></script>
     
         </body>
 </html>
