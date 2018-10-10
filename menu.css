@@ -1,0 +1,158 @@
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#F0F0F0;
+    background: url(images/backgroundpokemon.jpg)no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    height: auto;
+}
+footer{
+
+background:;
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+
+padding-top:50px;
+
+height:50px;
+
+padding-left: 50%;
+
+}
+
+.img {
+    height: 150px;
+    margin-left: 35% ;
+}
+.imgbox  {
+    height: 222.6px !important;
+}
+nav > ul { 
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul > li{
+    float: left;
+}
+nav li {
+    list-style-type: none;
+    padding: 30px;
+}
+.submenu{
+    display: none;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+    
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+nav > ul> li > a{
+    padding: : 20px 30px;
+    color: : #FFF;
+    
+}
+.submenu{
+    display: none;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+.menu-API:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228,77,38,0.15);
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.menu-API .submenu{
+    background-color:   RGB(230, 100, 50);
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: blod;
+}
+.menu-API.submenu li:hover{
+    background-color: RGB(210, 77, 60);
+}
+
+body{
+    
+}
+
+.main-section{
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top:25px;
+}
+.product{
+    margin-bottom:5px;
+}
+.product-part{
+    margin:5px;
+    border:3px solid #DDDDDD;
+    background-color: white;
+    padding-bottom: 10px;
+   
+}
+.img-section{
+    padding: 0px;
+}
+.img-section img{
+    width: 100%;
+}
+.product-title h1{
+    margin:0px;
+    color:#4C4C4C;
+    font-size:23px;
+    padding: 5px 0px;
+}
+.product-description{
+    padding: 3px 15px;
+}
+.product-description p{
+    color:#848484;
+}
+.product-cart p{
+    font-size:20px;
+    color:#4C4C4C;
+}
+.product-add-cart a{
+    border-radius:0px;
+    font-size: 11px;
+}
